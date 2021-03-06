@@ -16,7 +16,26 @@ li{
 }
 input[type=text]{
     border: 1px solid gray; opacity: 0.3;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 40rem;
     height: 2rem;
+}
+.align-button {
+    text-align: center;
+    padding: 0 10px 0 0;
+    
+}
+button {
+
+    background-color: gray; opacity: 0.5;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    
+    
+    
+
+}
+button a:hover{
+    outline-style: dashed;
 }
